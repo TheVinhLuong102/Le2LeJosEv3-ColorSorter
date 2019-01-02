@@ -15,8 +15,8 @@ In this project I am using the **LeJOS EV3 v0.9.1beta** framework (see https://s
 The program uses several sound and image files that are in the project's _resources_ directory. 
 Please upload them to your EV3 Brick via SCP to the directory _/home/lejos/lib_.
 
-The **image files** are converted from those found in the installation directory of the LEGO® Programming Environment (Home Edition):
-_c:\Program Files (x86)\LEGO Software\LEGO MINDSTORMS EV3 Home Edition\Resources\BrickResources\Retail\Images\files\_. 
+The **image files** are converted from those found in the installation directory of the LEGO® Programming Environment (Education Edition):
+_c:\Program Files (x86)\LEGO Software\LEGO MINDSTORMS Edu EV3\Resources\BrickResources\Education\Images\files\_. 
 
 You can convert them with the LeJOS EV3 Image Converter program that is part of the EV3 Control Center or can run stand-alone from the bin directory of the LeJOS EV3 installation (ev3image.bat). Alas, the Image Converter is still adapted to the old Mindstorms NXT Brick and displays a warning if the loaded image exceeds 100x64 pixels. However, it correctly converts images for the Mindstorms EV3 with up to 178x128 pixels.
 
